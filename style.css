@@ -438,7 +438,7 @@ body {
     font: inherit;
     vertical-align: baseline;
     position: absolute;
-    z-index: 1000000000000;
+    z-index: 0;
     top: 100px;
     color: rgb(255, 255, 255);
     animation: textContent 2s forwards;

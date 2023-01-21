@@ -573,8 +573,7 @@ const crysanthemumShell = (size = 1) => {
     const glitter = Math.random() < 0.25;
     const singleColor = Math.random() < 0.72;
     const color = singleColor ?
-        randomColor({ limitWhite: true }) :
-        [randomColor(), randomColor({ notSame: true })];
+        randomColor({ limitWhite: true }) : [randomColor(), randomColor({ notSame: true })];
     const pistil = singleColor && Math.random() < 0.42;
     const pistilColor = pistil && makePistilColor(color);
     const secondColor =
@@ -693,10 +692,8 @@ const floralShell = (size = 1) => ({
     starLife: 500 + size * 50,
     starLifeVariation: 0.5,
     color: Math.random() < 0.65 ?
-        "random" :
-        Math.random() < 0.15 ?
-        randomColor() :
-        [randomColor(), randomColor({ notSame: true })],
+        "random" : Math.random() < 0.15 ?
+        randomColor() : [randomColor(), randomColor({ notSame: true })],
     floral: true,
 });
 

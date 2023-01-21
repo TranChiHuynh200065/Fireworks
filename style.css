@@ -480,6 +480,8 @@ body {
     font-size: 3rem;
     margin-top: 6px;
     text-align: center;
+    font-family: "Caramel", cursive;
+    text-shadow: 0 0 5px #fff, 0 0 20px #00e6a5;
 }
 
 .city {

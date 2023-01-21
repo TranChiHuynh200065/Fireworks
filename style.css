@@ -226,7 +226,7 @@ body {
     }
     .layer:after {
         font-size: 2rem;
-        margin-left: -2rem;
+        margin-left: -3rem;
     }
 }
 
